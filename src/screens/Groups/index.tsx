@@ -1,7 +1,11 @@
 import { Text } from "react-native";
 
+import { Container } from "./styles";
+
 export function Groups() {
   return (
-    <Text>Groups</Text>
+    <Container>
+      <Text>Groups</Text>
+    </Container>
   )
 }
