@@ -27,7 +27,7 @@ export default function App() {
         barStyle="light-content"
         backgroundColor="transparent"
       />
-      {fontsLoaded ? <Players /> : <Loading />}
+      {fontsLoaded ? <Groups /> : <Loading />}
     </ThemeProvider>
   );
 }
